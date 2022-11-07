@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Chart Test</title>
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3"></script>
+	  <script defer src="ui.js"></script>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Pacifico'>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 class="neon-light">Colour Dance</h1>
+    
+    <div id="centered-block">
+			<div style="margin-bottom: 0.5em;">
+				<canvas width="500" height="100" id="c"></canvas>
+			</div>
+      
+			<div id="input-container"></div>
+			<!-- Changed to add these programmatically in window.onload():
+      <input type="number" id="input0" oninput="onInputValue(0, this.value);" min="0" value="2"></input>
+      <input type="number" id="input1" oninput="onInputValue(1, this.value);" min="0" value="6"></input>
+      <input type="number" id="input2" oninput="onInputValue(2, this.value);" min="0" value="4"></input>
+      <input type="number" id="input3" oninput="onInputValue(3, this.value);" min="0" value="3"></input>
+      -->
+      <br>
+      <button onclick="randomize();">Randomize</button>
+    </div>
+    
+    <div class="chart-container">
+      <canvas width="500" height="200" id="chart"></canvas>
+    </div>
+    
+  </body>
+</html>
