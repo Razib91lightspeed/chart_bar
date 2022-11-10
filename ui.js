@@ -1,9 +1,4 @@
-// DISCLAIMER: this code should not be treated as any "model example"
-// of good code. It is unpolished and may contain bugs and be written
-// in a fashion that should be avoided when creating "real" applications.
-// This example has been created merely to demonstrate some points 
-// discussed during the remote session. Therefore, the code may
-// contain unorthodox patterns and ways to implement functionalities.
+
 
 const dataValues = [2, 6, 4, 3, 1, 5, 7, 8, 9]
 const dataLabels = ['Finland', 'Netherlands', 'Greenland', 'Poland', 'England','Iceland', 'Switzerland', 'Ireland', 'New Zealand']
